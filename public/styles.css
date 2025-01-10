@@ -1,0 +1,91 @@
+.body {
+    margin: 0;
+    padding: 0;
+    
+    width: 100%;
+    height: 100vh;
+   
+    background: #222; 
+    background-image: 
+      linear-gradient(rgba(100, 200, 255, 0.2) 1px, transparent 1px), 
+      linear-gradient(90deg, rgba(100, 200, 255, 0.2) 1px, transparent 1px);
+    background-size: 1rem 1rem;
+
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5), 
+                inset 0 0 20px rgba(0, 50, 100, 0.5);
+  }
+
+
+
+  .navbar {
+     background: #222; 
+     background-image: 
+       linear-gradient(rgba(100, 200, 255, 0.2) 1px, transparent 1px), 
+       linear-gradient(90deg, rgba(100, 200, 255, 0.2) 1px, transparent 1px);
+     background-size: 1rem 1rem;
+    
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5), 
+                inset 0 0 20px rgba(0, 50, 100, 0.5);
+
+    border-bottom: 1px solid #222;
+    transition: background 0.3s;
+}
+.navbar:hover {
+    background: #1a1a1a;
+    
+}
+.navbar-brand {
+    color: #BCC6CC;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-shadow: 0 0 5px #BCC6CC, 0 0 10px #02000a;
+    transition: text-shadow 0.3s;
+    font-family: "Jersey 15", serif;
+
+    
+}
+.navbar-brand:hover {
+    text-shadow: 0 0 20px #BCC6CC, 0 0 30px #1b0089;
+}
+.nav-link {
+    color: #e0e0e0;
+    transition: color 0.3s, transform 0.3s;
+}
+.nav-link:hover {
+    color: #BCC6CC;
+    transform: scale(1.1);
+}
+.nav-item {
+    position: relative;
+}
+.nav-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #BCC6CC;
+    transition: width 0.3s;
+}
+.nav-item:hover::after {
+    width: 100%;
+}
+
+.bsb-hero-1 .text-start {
+    padding-left: 20px; /* Adjust as needed */
+    padding-top: 40px;
+  }
+  
+.container h1{
+    font-size: 5rem;
+    font-family: "Bebas Neue", serif;
+}
+
+#intro-text{
+    font-family: "Bebas Neue", serif;
+    font-weight: light;
+}
+
+  
+  
